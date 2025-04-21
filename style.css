@@ -1,0 +1,40 @@
+body {
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+h1 {
+    color: #d10000; /* Red */
+}
+
+p {
+    color: #000;
+    font-size: 20px;
+}
+
+.flag {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.stripe {
+    height: 30px;
+}
+
+.black { background-color: #000; }
+.white { background-color: #fff; border: 1px solid #ccc; }
+.green { background-color: #007a3d; }
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+    border-right: 90px solid #d10000;
+    margin: -90px 0 30px 0;
+    position: relative;
+    left: -55px;
+}
+
